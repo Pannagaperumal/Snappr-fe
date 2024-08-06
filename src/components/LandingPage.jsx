@@ -28,6 +28,9 @@ const LandingPage = () => {
             <Link to='/login' className="btn px-4 md:px-8 py-2 flex gap-2 text-base md:text-lg text-white border-2 rounded-lg transition duration-300 hover:text-gray-100 bg-red-500 border-red-500 hover:bg-inherit hover:border-white">
              LogIn
             </Link>
+            <Link to='/demo' className="btn px-4 md:px-6 py-2 text-base md:text-lg text-white border-2 rounded-lg transition duration-300 hover:text-gray-100  border-red-200 hover:bg-inherit hover:border-white">
+              Try Demo for Free
+            </Link>
           </div>
         </div>
       </div>

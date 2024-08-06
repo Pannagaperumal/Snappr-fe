@@ -73,12 +73,7 @@ function Register() {
         alt="Camera"
       /> */}
     </div>
-    <div className="mt-6 flex justify-center shadow-lg">
-      <video className="w-fit h-[200px] object-full rounded-lg" loop autoPlay muted>
-        <source src="/snappr.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
+    
   </div>
 </div>
 
