@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="absolute inset-0 bg-center filter" style={{ backgroundImage: "url('/wallpaperflare.com_wallpaper2.jpg')" }}></div>
       
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-black filter brightness-50 opacity-50"></div>
+      <div className="absolute inset-0 bg-black filter brightness-30 opacity-50"></div>
       
       {/* Landing page elements */}
       <div className="relative flex flex-col gap-8 px-4 md:px-[45px] items-center ml-4 md:ml-10 justify-center h-fit w-fit space-y-4">

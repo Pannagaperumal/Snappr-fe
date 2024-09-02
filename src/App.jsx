@@ -8,6 +8,7 @@ import LandingPage from './components/LandingPage';
 // import ThirdPage from './components/ThirdPage';
 import Login from './components/Login';
 import Register from './components/Register';
+import DashBoard from './Dashboard/dashBoard';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -15,7 +16,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      setIsScrolled(scrollTop > 50); // Adjust the value 50 to the desired scroll position
+      setIsScrolled(scrollTop > 50); 
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -32,6 +33,7 @@ function App() {
             <Route path="/" element={<Header isScrolled={isScrolled} />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path='/dashboard' element={<DashBoard />} />
           </Routes>
       </div>
     </Router>
@@ -39,8 +41,3 @@ function App() {
 }
 
 export default App;
-{/* <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-          </Routes> */}

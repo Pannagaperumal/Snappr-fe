@@ -15,6 +15,13 @@ export default {
       animation: {
         slideIn: 'slideIn 1s ease-out forwards',
       },
+      colors: {
+        darkBlue: 'rgb(14, 27, 66)',
+        softRed: 'rgb(247, 124, 95)',
+        deepPurple: 'rgb(94, 55, 104)',
+        mutedPink: 'rgb(182, 81, 106)',
+        darkPurple: 'rgb(55, 40, 95)',
+      },
     },
   },
   plugins: [],

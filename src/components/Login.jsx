@@ -54,12 +54,13 @@ function Login() {
             </div>
 
             <div className='w-full items-center flex justify-center'>
-              <button
-                type="submit"
-                className="group relative self-center w-full text-center items-center flex justify-center py-2 px-4 border border-transparent text-md font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >
-                Log In
-              </button>
+            <Link
+          type="submit"
+          to='/dashboard'
+          className="group relative self-center w-full text-center items-center flex justify-center py-2 px-4 border border-transparent text-md font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          Sign Up
+        </Link>
             </div>
           </form>
           <div className="mt-6 flex justify-center shadow-lg">
