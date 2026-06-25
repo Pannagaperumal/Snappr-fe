@@ -22,43 +22,13 @@ const Header = ({ isScrolled }) => {
 
   return (
     <div>
-      <div className={`bg-inherit fixed h-[80px] w-full flex z-10 justify-between items-center py-4 px-6 md:px-[75px] ${isScrolled ? 'bg-white text-red-500 shadow-lg' : 'bg-transparent text-white'} transition-colors duration-300`}>
-    <h1 className='comfortaa font-bold text-[30px] md:text-[39px]'>Snappr</h1>
-    <div className='md:hidden'>
-      <button onClick={toggleMenu} className="focus:outline-none items-center flex justify-center text-center  md:text-current">
-        {menuOpen ? <HiX className="w-8 h-8 " /> : <HiMenu className="w-8 h-8" />}
-      </button>
-    </div>
-    <div className='comfortaa hidden md:flex flex-row text-center justify-center items-center font-bold text-[18px] space-x-9'>
-      <a href="#Land" className='hover:underline' data-target="#Land" onClick={handleClick}>Home</a>
-      <a href="#firstPage" className='hover:underline' data-target="#firstPage" onClick={handleClick}>Features</a>
-      <a href="#products" className='hover:underline' data-target="#products" onClick={handleClick}>Packages</a>
-      <a href="#contact" className='hover:underline' data-target="#contact" onClick={handleClick}>Contact</a>
-    </div>
-    {/* Popup menu for mobile view */}
-    {menuOpen && (
-      <motion.div className="fixed inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-20"
-      initial={{ opacity: 0, y: -20 }}
-      exit={{opacity: 0, y: 20}}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
-      >
-        <div className="bg-white rounded-lg p-6 w-11/12 max-w-sm relative">
-          <motion.button onClick={toggleMenu} className="absolute top-4 right-4 text-red-500 bg-gray-200 p-2 rounded-full"
-          initial={{ opacity: 0, scale: 0.2 }}
-          exit={{opacity: 0, y: 20}}
-            animate={{ opacity: 1 , scale: 1}}
-            transition={{ duration: 0.4, delay: 0.2 }}
-          >
-            <HiX className="w-6 h-6" />
-          </motion.button>
-          <a href="#Land" className='block text-lg font-semibold hover:underline text-red-500 mb-4' data-target="#Land" onClick={handleClick}>Home</a>
-          <a href="#firstPage" className='block text-lg font-semibold hover:underline text-red-500 mb-4' data-target="#firstPage" onClick={handleClick}>Features</a>
-          <a href="#products" className='block text-lg font-semibold hover:underline text-red-500 mb-4' data-target="#products" onClick={handleClick}>Packages</a>
-          <a href="#contact" className='block text-lg font-semibold hover:underline text-red-500' data-target="#contact" onClick={handleClick}>Contact</a>
+      <div className={`fixed h-[90px] w-full flex z-50 justify-between items-center py-4 px-6 md:px-[75px] transition-all duration-500 ${isScrolled ? 'bg-imperial-blue/95 backdrop-blur-md shadow-premium border-b border-royal-gold/30' : 'bg-gradient-to-b from-imperial-blue/80 to-transparent'}`}>
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center shadow-glow">
+            <span className="text-imperial-blue font-bold text-xl cinzel">S</span>
+          </div>
+          <h1 className='font-cinzel font-bold text-[28px] md:text-[36px] text-royal-gold tracking-wider'>Snappr</h1>
         </div>
-      </motion.div>
-    )}
       </div>
       <main className="flex-grow">
           <LandingPage />
