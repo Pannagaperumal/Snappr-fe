@@ -27,7 +27,7 @@ const Header = ({ isScrolled }) => {
           <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center shadow-glow">
             <span className="text-imperial-blue font-bold text-xl cinzel">S</span>
           </div>
-          <h1 className='font-cinzel font-bold text-[28px] md:text-[36px] text-royal-gold tracking-wider'>Snappr</h1>
+          <h1 className='font-playfair font-bold text-[28px] md:text-[36px] text-royal-gold tracking-wide'>Snaprr</h1>
         </div>
       </div>
       <main className="flex-grow">

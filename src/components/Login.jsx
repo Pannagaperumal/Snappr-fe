@@ -6,7 +6,7 @@ function Login() {
   return (
     <div>
       <div className={`bg-inherit fixed h-[80px] w-full flex z-10 justify-between items-center py-4 px-6 md:px-[75px] text-red-500 shadow-xl transition-colors duration-300`}>
-        <Link to='/' className='comfortaa font-bold text-[30px] md:text-[39px]'>Snappr</Link>
+        <Link to='/' className='font-playfair font-semibold text-[30px] md:text-[39px] text-royal-gold'>Snaprr</Link>
         <Link to='/' className=''><HomeIcon className=' h-8 w-8'/></Link>
       </div>
       <div id='login' className="relative min-h-screen flex flex-col items-start justify-start py-12 px-4 sm:px-6 lg:px-8">
@@ -65,7 +65,7 @@ function Login() {
           </form>
           {/* <div className="mt-6 flex justify-center shadow-lg">
             <video className="w-fit h-[200px] object-full rounded-lg" loop autoPlay muted>
-              <source src="/snappr.mp4" type="video/mp4" />
+              <source src="/snaprr.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div> */}

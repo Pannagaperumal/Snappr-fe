@@ -8,7 +8,7 @@ function Register() {
     <div>
       <div>
       <div className={`bg-inherit fixed h-[80px] w-full flex z-10 justify-between items-center py-4 px-6 md:px-[75px] text-red-500 shadow-xl transition-colors duration-300`}>
-    <Link to='/' className='comfortaa font-bold text-[30px] md:text-[39px]'>Snappr</Link>
+    <Link to='/' className='font-playfair font-semibold text-[30px] md:text-[39px] text-royal-gold'>Snaprr</Link>
     <Link to='/' className=''><HomeIcon className=' h-8 w-8'/></Link>
       </div>
       </div>

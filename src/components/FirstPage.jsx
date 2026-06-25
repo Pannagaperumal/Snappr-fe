@@ -9,8 +9,6 @@ const FirstPage = () => {
 
   return (
     <div id='firstPage' className="h-fit w-full flex flex-col bg-gradient-to-b from-imperial-blue to-imperial-blue-light relative overflow-hidden">
-      {/* Indian Heritage Pattern Background */}
-      <div className="absolute inset-0 bg-paisley-pattern opacity-10 pointer-events-none"></div>
       <div className='mt-[97px] flex justify-center items-center px-4'>
       <div className='w-full max-w-7xl rounded-2xl p-8 md:p-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 bg-gradient-to-br from-deep-maroon/80 to-imperial-blue/90 backdrop-blur-sm border border-royal-gold/30 shadow-premium'>
   <motion.div

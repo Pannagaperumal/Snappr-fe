@@ -11,8 +11,6 @@ const SecondPage = () => {
 
   return (
     <div id="products" className="flex flex-col justify-center items-center py-20 bg-gradient-to-b from-imperial-blue-light to-imperial-blue relative overflow-hidden">
-      {/* Indian Heritage Pattern Background */}
-      <div className="absolute inset-0 bg-geometric-pattern opacity-15 pointer-events-none"></div>
       <div className="container mx-auto px-4 mt-12">
         <div className="text-center">
           <motion.p

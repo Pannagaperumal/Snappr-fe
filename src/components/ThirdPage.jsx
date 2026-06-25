@@ -6,8 +6,6 @@ const ThirdPage = () => {
   return (
     <div>
       <div id="contact" className="py-20 bg-gradient-to-b from-imperial-blue to-deep-maroon relative overflow-hidden">
-        {/* Indian Heritage Pattern Background */}
-        <div className="absolute inset-0 bg-mandala-pattern opacity-10 pointer-events-none"></div>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <motion.p
@@ -86,7 +84,7 @@ const ThirdPage = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/2 text-center md:text-left mb-4 md:mb-0">
-            <p className="text-cream-ivory/70 font-light">&copy; 2024 <span className="text-royal-gold cinzel font-semibold">Snappr</span>. All rights reserved.</p>
+            <p className="text-cream-ivory/70 font-light">&copy; 2024 <span className="text-royal-gold font-playfair font-semibold">Snaprr</span>. All rights reserved.</p>
           </div>
           <div className="w-full md:w-1/2 text-center md:text-right">
             <p className="text-cream-ivory/50 text-sm">Event Photography Platform</p>

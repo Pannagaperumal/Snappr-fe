@@ -133,7 +133,7 @@ const handleDrop = (e) => {
         {/* Header */}
         <header className="bg-white shadow-lg w-full z-10">
             <div className="h-[80px] flex justify-between items-center px-6 md:px-14 text-red-500 ">
-              <h1 className="comfortaa font-bold text-[30px] md:text-[39px]">Snappr</h1>
+              <h1 className="font-playfair font-semibold text-[30px] md:text-[39px] text-royal-gold">Snaprr</h1>
               <div className="md:hidden">
                 <button
                   onClick={toggleMenu}
